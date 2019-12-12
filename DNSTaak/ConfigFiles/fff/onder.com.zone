@@ -1,0 +1,18 @@
+$TTL 5
+onder.com.      IN      SOA    	onder.com. root.fff.onder.com.  (
+                                      201812301  ; Serial
+                                      28800      ; Refresh
+                                      14400      ; Retry
+                                      604800     ; Expire - 1 week
+                                      86400 )    ; Minimum
+
+onder.com.				IN      NS      fff.onder.com.
+fff.onder.com.				IN	A	192.168.24.4
+router.onder.com.			IN	A	192.168.24.1
+printer24.onder.com.			IN	A	192.168.24.77
+
+drie.onder.com.                 	IN      NS      pluto3.drie.onder.com.
+pluto3.drie.onder.com.  		IN      A       192.168.19.3
+
+vier.onder.com.				IN	NS	pluto4.vier.onder.com.
+pluto4.vier.onder.com.			IN	A	192.168.28.3

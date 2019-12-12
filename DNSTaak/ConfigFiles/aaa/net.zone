@@ -1,0 +1,12 @@
+$TTL 5
+net.       IN      SOA     aaa.net. root.aaa.net.  (
+                                      201812309  ; Serial
+                                      28800      ; Refresh
+                                      14400      ; Retry
+                                      604800     ; Expire - 1 week
+                                      86400 )    ; Minimum
+
+net.		IN      NS      aaa.net.
+aaa.net.	IN	A	192.168.104.87
+router.net.	IN	A	192.168.104.1
+printer104.net.	IN	A	192.168.104.77

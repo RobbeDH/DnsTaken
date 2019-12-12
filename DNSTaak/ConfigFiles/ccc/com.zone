@@ -1,0 +1,20 @@
+$TTL 5
+com.      	 IN      SOA     ccc.com. root.ccc.com.  (
+                                      201812301  ; Serial
+                                      28800      ; Refresh
+                                      14400      ; Retry
+                                      604800     ; Expire - 1 week
+                                      86400 )    ; Minimum
+
+com.			IN      NS      ccc.com.
+ccc.com.		IN	A	192.168.124.21
+router.com.		IN	A	192.168.124.1
+printer124.com.		IN	A	192.168.124.77
+
+onder.com.		IN	NS	fff.onder.com.
+fff.onder.com.		IN	A 	192.168.24.4
+
+midden.com.    		IN      NS      ggg.midden.com.
+ggg.midden.com. 	IN      A       192.168.40.6
+
+

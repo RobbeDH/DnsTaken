@@ -1,0 +1,19 @@
+$TTL 5
+rechts.edu.       IN      SOA     hhh.rechts.edu. 	root.hhh.rechts.edu.  (
+                                      201812301  ; Serial
+                                      28800      ; Refresh
+                                      14400      ; Retry
+                                      604800     ; Expire - 1 week
+                                      86400 )    ; Minimum
+
+rechts.edu.				IN      NS      hhh.rechts.edu.
+hhh.rechts.edu.				IN	A	192.168.56.9
+router.rechts.edu.			IN	A	192.168.56.1
+printer56.rechts.edu.			IN	A	192.168.56.77
+
+zeven.rechts.edu.               	IN      NS      pluto7.zeven.rechts.edu.
+pluto7.zeven.rechts.edu.        	IN      A       192.168.52.3
+
+acht.rechts.edu.			IN	NS	pluto8.acht.rechts.edu.
+pluto8.acht.rechts.edu.			IN	A	192.168.61.3
+

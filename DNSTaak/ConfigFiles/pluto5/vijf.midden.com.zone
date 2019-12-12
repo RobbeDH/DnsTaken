@@ -1,0 +1,12 @@
+$TTL 5
+vijf.midden.com.       		IN      SOA     pluto5.vijf.midden.com. root.pluto5.vijf.midden.com.  (
+                                      201812301  ; Serial
+                                      28800      ; Refresh
+                                      14400      ; Retry
+                                      604800     ; Expire - 1 week
+                                      86400 )    ; Minimum
+
+vijf.midden.com.			IN      NS      pluto5.vijf.midden.com.
+pluto5.vijf.midden.com.			IN	A	192.168.32.3
+router.vijf.midden.com.			IN	A	192.168.32.1
+printer32.vijf.midden.com.		IN	A	192.168.32.77

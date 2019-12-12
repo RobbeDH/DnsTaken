@@ -1,0 +1,18 @@
+$TTL 5
+midden.com.       IN      SOA     midden.com. 	root.ggg.midden.com.  (
+                                      201812301  ; Serial
+                                      28800      ; Refresh
+                                      14400      ; Retry
+                                      604800     ; Expire - 1 week
+                                      86400 )    ; Minimum
+
+midden.com.				IN      NS      ggg.midden.com.
+ggg.midden.com.				IN	A	192.168.40.6
+router.midden.com.			IN	A	192.168.40.1
+printer40.midden.com.			IN	A	192.168.40.77
+
+vijf.midden.com.        		IN      NS      pluto5.vijf.midden.com.
+pluto5.vijf.midden.com. 		IN      A       192.168.32.3
+
+zes.midden.com.				IN	NS	pluto6.zes.midden.com.
+pluto6.zes.midden.com.			IN	A	192.168.48.3

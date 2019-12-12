@@ -1,0 +1,21 @@
+$TTL 5
+links.org.       IN      SOA    	links.org. root.eee.links.org.  (
+                                      201812301  ; Serial
+                                      28800      ; Refresh
+                                      14400      ; Retry
+                                      604800     ; Expire - 1 week
+                                      86400 )    ; Minimum
+
+links.org.			IN      NS      eee.links.org.
+eee.links.org.			IN	A	192.168.8.5
+router.links.org.		IN	A	192.168.8.1
+printer8.links.org.		IN	A	192.168.8.77
+
+
+een.links.org.         		IN      NS      pluto1.een.links.org.
+pluto1.een.links.org.   	IN      A       192.168.10.3
+
+
+twee.links.org.			IN	NS	pluto2.twee.links.org.
+pluto2.twee.links.org.		IN	A	192.168.16.3
+

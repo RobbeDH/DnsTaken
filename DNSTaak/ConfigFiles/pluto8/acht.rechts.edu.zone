@@ -1,0 +1,12 @@
+$TTL 5
+acht.rechts.edu.	       IN      SOA     pluto8.acht.rechts.edu. root.pluto8.acht.rechts.edu.  (
+                                      201812301  ; Serial
+                                      28800      ; Refresh
+                                      14400      ; Retry
+                                      604800     ; Expire - 1 week
+                                      86400 )    ; Minimum
+
+acht.rechts.edu.			IN      NS      pluto8.acht.rechts.edu.
+pluto8.acht.rechts.edu.			IN	A	192.168.61.3
+router.acht.rechts.edu.			IN	A	192.168.61.1
+printer61.acht.rechts.edu.		IN	A	192.168.61.77
