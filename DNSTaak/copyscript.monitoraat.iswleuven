@@ -37,3 +37,5 @@ cp /var/lib/lxc/pluto8/rootfs/var/bind/pri/pluto8.acht.rechts.edu.zone /var/lib/
 cp /var/lib/lxc/pluto8/rootfs/var/bind/pri/pluto8.acht.rechts.edu.zone /var/lib/lxc/pluto3/rootfs/var/bind/pri/pluto3.drie.onder.com.zone
 cp /var/lib/lxc/pluto8/rootfs/var/bind/pri/pluto8.acht.rechts.edu.zone /var/lib/lxc/pluto2/rootfs/var/bind/pri/pluto2.twee.links.org.zone
 cp /var/lib/lxc/pluto8/rootfs/var/bind/pri/pluto8.acht.rechts.edu.zone /var/lib/lxc/pluto1/rootfs/var/bind/pri/pluto1.een.links.org.zone
+echo script finished
+echo CopyRight ISW-Leuven
