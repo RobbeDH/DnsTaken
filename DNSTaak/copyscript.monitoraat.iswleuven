@@ -30,13 +30,13 @@ cp rechts.edu.zone /var/lib/lxc/hhh/rootfs/var/bind/pri/rechts.edu.zone
 cp /var/lib/lxc/hhh/rootfs/var/bind/pri/edu.zone /var/lib/lxc/ggg/rootfs/var/bind/pri/midden.com.zone
 cp /var/lib/lxc/hhh/rootfs/var/bind/pri/edu.zone /var/lib/lxc/fff/rootfs/var/bind/pri/onder.com.zone
 cp /var/lib/lxc/hhh/rootfs/var/bind/pri/edu.zone /var/lib/lxc/eee/rootfs/var/bind/pri/links.org.zone
-cp var/lib/lxc/pluto8/rootfs/var/bind/pri/pluto8.acht.rechts.edu.zone /var/lib/lxc/pluto7/rootfs/var/bind/pri/pluto7.zeven.rechts.edu.zone
-cp /var/lib/lxc/pluto8/rootfs/var/bind/pri/pluto8.acht.rechts.edu.zone /var/lib/lxc/pluto6/rootfs/var/bind/pri/pluto6.zes.midden.com.zone
-cp /var/lib/lxc/pluto8/rootfs/var/bind/pri/pluto8.acht.rechts.edu.zone /var/lib/lxc/pluto5/rootfs/var/bind/pri/pluto5.vijf.midden.com.zone
-cp /var/lib/lxc/pluto8/rootfs/var/bind/pri/pluto8.acht.rechts.edu.zone /var/lib/lxc/pluto4/rootfs/var/bind/pri/pluto4.vier.onder.com.zone
-cp /var/lib/lxc/pluto8/rootfs/var/bind/pri/pluto8.acht.rechts.edu.zone /var/lib/lxc/pluto3/rootfs/var/bind/pri/pluto3.drie.onder.com.zone
-cp /var/lib/lxc/pluto8/rootfs/var/bind/pri/pluto8.acht.rechts.edu.zone /var/lib/lxc/pluto2/rootfs/var/bind/pri/pluto2.twee.links.org.zone
-cp /var/lib/lxc/pluto8/rootfs/var/bind/pri/pluto8.acht.rechts.edu.zone /var/lib/lxc/pluto1/rootfs/var/bind/pri/pluto1.een.links.org.zone
+cp var/lib/lxc/pluto8/rootfs/var/bind/pri/acht.rechts.edu.zone /var/lib/lxc/pluto7/rootfs/var/bind/pri/zeven.rechts.edu.zone
+cp /var/lib/lxc/pluto8/rootfs/var/bind/pri/acht.rechts.edu.zone /var/lib/lxc/pluto6/rootfs/var/bind/pri/zes.midden.com.zone
+cp /var/lib/lxc/pluto8/rootfs/var/bind/pri/acht.rechts.edu.zone /var/lib/lxc/pluto5/rootfs/var/bind/pri/vijf.midden.com.zone
+cp /var/lib/lxc/pluto8/rootfs/var/bind/pri/acht.rechts.edu.zone /var/lib/lxc/pluto4/rootfs/var/bind/pri/vier.onder.com.zone
+cp /var/lib/lxc/pluto8/rootfs/var/bind/pri/acht.rechts.edu.zone /var/lib/lxc/pluto3/rootfs/var/bind/pri/drie.onder.com.zone
+cp /var/lib/lxc/pluto8/rootfs/var/bind/pri/acht.rechts.edu.zone /var/lib/lxc/pluto2/rootfs/var/bind/pri/twee.links.org.zone
+cp /var/lib/lxc/pluto8/rootfs/var/bind/pri/acht.rechts.edu.zone /var/lib/lxc/pluto1/rootfs/var/bind/pri/een.links.org.zone
 
 echo \*----------------------------------------------------------\*
 echo \| \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \|
