@@ -1,6 +1,6 @@
 echo Welkom. Dit is het hulp-configuratie-script voor de taak van DNS Servers. Dit script helpt bij het kopiëren van de configuratie-files van de DNS Servers, maar de configuraties zullen jullie wel manueel moeten doen om toch aan te tonen dat er input is van jullie en dat er geleerd kan worden. Dit is en blijft een taak.
 echo Het is niet de bedoeling dit gewoon te kopiëren want dan werkt het niet!
-
+echo Na dit script moet de configuratie nog gebeuren
 echo \*----------------------------------------------------------\*
 echo \|	\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \|
 echo \|	Disclaimer: ISW staat niet in voor de juistheid\ \ \ \ \ \ \ \ \ \ \|
@@ -37,5 +37,24 @@ cp /var/lib/lxc/pluto8/rootfs/var/bind/pri/pluto8.acht.rechts.edu.zone /var/lib/
 cp /var/lib/lxc/pluto8/rootfs/var/bind/pri/pluto8.acht.rechts.edu.zone /var/lib/lxc/pluto3/rootfs/var/bind/pri/pluto3.drie.onder.com.zone
 cp /var/lib/lxc/pluto8/rootfs/var/bind/pri/pluto8.acht.rechts.edu.zone /var/lib/lxc/pluto2/rootfs/var/bind/pri/pluto2.twee.links.org.zone
 cp /var/lib/lxc/pluto8/rootfs/var/bind/pri/pluto8.acht.rechts.edu.zone /var/lib/lxc/pluto1/rootfs/var/bind/pri/pluto1.een.links.org.zone
-echo script finished
-echo CopyRight ISW-Leuven
+
+echo \*----------------------------------------------------------\*
+echo \| \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \|
+echo \| Credits \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \|
+echo \| Spelling \+ Testing: Nina \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \|
+echo \| Code \+ testing: Sigfried\	\	\	\ \ \ \ \ \ \ \	\ \ \ \|
+echo \| Code +\ testing: Timo grumpy\@iswleuven.be \	\    \      \ \ \ \ \ \ \ \|
+echo \| \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \|
+echo \*----------------------------------------------------------\*
+echo Timeout of 5 seconds \* \* \* \* \*
+sleep 1
+echo Timeout of 4 seconds \* \* \* \*
+sleep 1
+echo Timeout of 3 seconds \* \* \*
+sleep 1
+echo Timeout of 2 seconds \* \*
+sleep 1
+echo Timeout of 1 second \ \*
+sleep 1
+echo Timeout complete
+echo script sucsefull
