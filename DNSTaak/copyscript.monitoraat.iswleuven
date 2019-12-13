@@ -26,7 +26,7 @@ cp /var/lib/lxc/pluto8/rootfs/etc/bind/named.conf /var/lib/lxc/pluto1/rootfs/etc
 
 cp /var/lib/lxc/ddd/rootfs/var/bind/pri/edu.zone /var/lib/lxc/ccc/rootfs/var/bind/pri/com.zone
 cp /var/lib/lxc/ddd/rootfs/var/bind/pri/edu.zone /var/lib/lxc/bbb/rootfs/var/bind/pri/org.zone
-cp rechts.edu.zone /var/lib/lxc/hhh/rootfs/var/bind/pri/rechts.edu.zone
+cp ConfigFiles/hhh/rechts.edu.zone /var/lib/lxc/hhh/rootfs/var/bind/pri/rechts.edu.zone
 cp /var/lib/lxc/hhh/rootfs/var/bind/pri/rechts.edu.zone /var/lib/lxc/ggg/rootfs/var/bind/pri/midden.com.zone
 cp /var/lib/lxc/hhh/rootfs/var/bind/pri/rechts.edu.zone /var/lib/lxc/fff/rootfs/var/bind/pri/onder.com.zone
 cp /var/lib/lxc/hhh/rootfs/var/bind/pri/rechts.edu.zone /var/lib/lxc/eee/rootfs/var/bind/pri/links.org.zone
