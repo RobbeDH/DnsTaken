@@ -19,4 +19,8 @@ voor deze configuratie moeten er twee files gewijzigd worden namelijk
 /var/lib/lxc/"Naam_Van_de_DNS_SERVER_KOMT_HIER"/rootfs/var/bind/pri/"Naam_Van_De_DNS_ZONE_KOMT_HIER".zone
 
 De voledig rechtse kant van de dns boom afgewerkt.
-in de 
+
+
+
+als er vragen zijn stuur een mailtje naar
+grumpy@iswleuven.be
