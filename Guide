@@ -1,0 +1,8 @@
+Deze git repostiry is enkel en aleen als hulpmiddel
+
+Om de dns servers te configureren. met behulp van deze tool moeten er eerst de volgende comandos uitgevoerd worden
+apt update
+apt install git -y
+
+om deze file te copieren naar de vm gebruik volgend comando
+git clone 
