@@ -11,7 +11,7 @@ Om het hulp script te activeren moeten we naar de git directory gaan met het vol
 cd DnsTaken/DNSTaak
 
 Eerst moeten we het script rechten geven
-chmd +x copyscript.monitoraat.iswleuven
+chmod +x copyscript.monitoraat.iswleuven
 
 Om het uit te voeren typ
 ./copyscript.monitoraat.iswleuven
