@@ -30,7 +30,7 @@ cp ConfigFiles/hhh/rechts.edu.zone /var/lib/lxc/hhh/rootfs/var/bind/pri/rechts.e
 cp /var/lib/lxc/hhh/rootfs/var/bind/pri/rechts.edu.zone /var/lib/lxc/ggg/rootfs/var/bind/pri/midden.com.zone
 cp /var/lib/lxc/hhh/rootfs/var/bind/pri/rechts.edu.zone /var/lib/lxc/fff/rootfs/var/bind/pri/onder.com.zone
 cp /var/lib/lxc/hhh/rootfs/var/bind/pri/rechts.edu.zone /var/lib/lxc/eee/rootfs/var/bind/pri/links.org.zone
-cp var/lib/lxc/pluto8/rootfs/var/bind/pri/acht.rechts.edu.zone /var/lib/lxc/pluto7/rootfs/var/bind/pri/zeven.rechts.edu.zone
+cp /var/lib/lxc/pluto8/rootfs/var/bind/pri/acht.rechts.edu.zone /var/lib/lxc/pluto7/rootfs/var/bind/pri/zeven.rechts.edu.zone
 cp /var/lib/lxc/pluto8/rootfs/var/bind/pri/acht.rechts.edu.zone /var/lib/lxc/pluto6/rootfs/var/bind/pri/zes.midden.com.zone
 cp /var/lib/lxc/pluto8/rootfs/var/bind/pri/acht.rechts.edu.zone /var/lib/lxc/pluto5/rootfs/var/bind/pri/vijf.midden.com.zone
 cp /var/lib/lxc/pluto8/rootfs/var/bind/pri/acht.rechts.edu.zone /var/lib/lxc/pluto4/rootfs/var/bind/pri/vier.onder.com.zone
